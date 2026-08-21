@@ -34,6 +34,14 @@ jobs:
             -sdk iphoneos \
             -configuration Debug \
             -destination 'generic/platform=iOS' \
+            -derivedDataPath build \
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
             build
+
+      - name: Upload iOS app
+        uses: actions/upload-artifact@v4
+        with:
+          name: PowerLoad-iOS
+          path: build/Build/Products/Debug-iphoneos/App.app
+          if-no-files-found: error
