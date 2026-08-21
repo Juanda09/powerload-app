@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">PowerLoad</string>
+    <string name="title_activity_main">PowerLoad</string>
+    <string name="package_name">com.powerload.app</string>
+    <string name="custom_url_scheme">com.powerload.app</string>
+</resources>

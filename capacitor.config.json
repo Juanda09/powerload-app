@@ -1,0 +1,13 @@
+{
+  "appId": "com.powerload.app",
+  "appName": "PowerLoad",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0,
+      "launchAutoHide": true,
+      "backgroundColor": "#07090d",
+      "showSpinner": false
+    }
+  }
+}
